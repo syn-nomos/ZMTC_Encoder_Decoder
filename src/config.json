@@ -1,0 +1,21 @@
+{
+    "train_jsonl_path": "path/to/jsonl/train_split",
+    "dev_jsonl_path": "path/to/jsonl/dev_split",
+    "test_jsonl_path": "path/to/jsonl/test_split",
+    "oflan_path": "/path/to/oflan/checkpoint",
+    "elds_path": "/path/to/ELDs/jsonl/file",
+    "label_encoder": "sentence-transformers/all-mpnet-base-v2",
+    "document_encoder" : "FacebookAI/xlm-roberta-base",
+    "output_path": "./output",
+    "lamda":1.0,
+    "decoder_hidden_size": 768,
+    "decoder_layers":8,
+    "decoder_attn_heads":8,
+    "freeze_doc_encoder": false,
+    "doc_chunk_size":512,
+    "stride_window":256,
+    "batch_size":16,
+    "lr":3e-5,
+    "epochs":30,
+    "patience":4
+}
