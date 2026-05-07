@@ -1,8 +1,8 @@
 # ZMTC Encoder–Decoder
 
-Official repository for the **22nd International Conference on Artificial Intelligence Applications and Innovations (AIAI)** paper:
+Official repository for the following paper:
 
-**"Enhancing Zero-shot Multi-label Text Classification with LLM-generated Label Descriptions and Encoder–Decoder Models"**
+**"Petropoulos, P., Kaiserlis, A., & Stamatatos, E.: " Zero-shot Multi-label Text Classification Using Heterogeneous Encoder–Decoder Models", In Proc. of the 22nd International Conference on Artificial Intelligence Applications and Innovations (AIAI)."**
 
 # Abstract
 Zero-shot multi-label text classification is the task of assigning
